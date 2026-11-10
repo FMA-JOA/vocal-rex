@@ -2,148 +2,167 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#F2F3EF">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="theme-color" content="#F9F7F3">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Vocal REX">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="robots" content="noindex, nofollow">
 <title>Vocal REX</title>
-<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAADNUlEQVR42u3dQVajUBCG0STHue5OB7o6Jy7PJfTAaXcagUDVX/ebek5E3uU9JCRcn99fL9LfutkFgkNwCA7BITgEh+AQHIJDcEhwCA7BITgEh+AQHIJDcAgOCQ7BITgEh+AQHIJDcAgOwSE92QXfn1//+tHLx9vkPXOd+eUtd0CAMhfHChZjiQzCsZHFQCI3Mk5/NTNHCItRU8iNDFPIRBzHjFywjxsZfMzCcfxoRfpw+VyTcJx1EOdNHjcy+LCsaDaOCgdu0uRh5tAAHHUO2ZjJw8whOASH4Ki+zGecdpg5BIfgEByCQ3AIDsEhOASH4JDgEByCQ3AIDsEhOASH4BAcEhyCQ3AIDsEhOASH4BAcgkOCQ3AIDsEhOASH4BAcgkNwNKna810znjdr5hAcgkNwlF7mYx5w/1Rtg+4/byBgvzf6A6OWlQp7NmbacM6hSTjOPXCTpo3MmeOsEQqTYVlRKxz3j7+Fz047/iBe+Bt7/S8WO3McuaPzFpT8ZeWYMUuV0RLHr57K+eiR+9Xrt3ue6NMlvZ/x231ggieM0jPHI/b7vq9ZfwvnnnOsmwZePt62D8DqF+n4jOrr8/trUwFbRnrFUD3019VcpPLPOf47GHdGbsKJRSaO78+vXQbv0QI6LijVzznmHLVl/9LeF8HqH5R9p43qOJYcUpX3/pJtqzxBVp85+vroLuMS895KNR+tV5NOOHZ5N7ygjPpn3HUvgq0e+xN3eouNDFxWlu/Ns6aQMBmX1CukP+N02BhknGE0XlZWD8NDiVTbntE4Lhveko3cDDj2nMY3Ds+JvxqOQ1f6w/5Jbvo+UWMcXc4E+76D2PsKaf393vq95faXzyvv/e53HfReVsouMRk3o+TgKEIk6R6lNBwnEsm7dS0Tx8FEUu9oTMbxaCXxd7mOwLGvkjl3Ps/Csc7K2E+vjP5mnyWjPvlzTb72SXAIDsEhOASH4BAcSinhCmnZmwW7X0C7kTFz2/Jx+PIWOHrvd98JJv+tCA4JDoXi6HIVwcch7fc0GRcfhyTjTqNvMJYTUsEhOASH4BAcgkNwCA7BIcEhOASH4BAcgkNwCA7BITgkOASHtvYHMmsDvJBwu9EAAAAASUVORK5CYII=">
-<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAADNUlEQVR42u3dQVajUBCG0STHue5OB7o6Jy7PJfTAaXcagUDVX/ebek5E3uU9JCRcn99fL9LfutkFgkNwCA7BITgEh+AQHIJDcEhwCA7BITgEh+AQHIJDcAgOCQ7BITgEh+AQHIJDcAgOwSE92QXfn1//+tHLx9vkPXOd+eUtd0CAMhfHChZjiQzCsZHFQCI3Mk5/NTNHCItRU8iNDFPIRBzHjFywjxsZfMzCcfxoRfpw+VyTcJx1EOdNHjcy+LCsaDaOCgdu0uRh5tAAHHUO2ZjJw8whOASH4Ki+zGecdpg5BIfgEByCQ3AIDsEhOASH4JDgEByCQ3AIDsEhOASH4BAcEhyCQ3AIDsEhOASH4BAcgkOCQ3AIDsEhOASH4BAcgkNwNKna810znjdr5hAcgkNwlF7mYx5w/1Rtg+4/byBgvzf6A6OWlQp7NmbacM6hSTjOPXCTpo3MmeOsEQqTYVlRKxz3j7+Fz047/iBe+Bt7/S8WO3McuaPzFpT8ZeWYMUuV0RLHr57K+eiR+9Xrt3ue6NMlvZ/x231ggieM0jPHI/b7vq9ZfwvnnnOsmwZePt62D8DqF+n4jOrr8/trUwFbRnrFUD3019VcpPLPOf47GHdGbsKJRSaO78+vXQbv0QI6LijVzznmHLVl/9LeF8HqH5R9p43qOJYcUpX3/pJtqzxBVp85+vroLuMS895KNR+tV5NOOHZ5N7ygjPpn3HUvgq0e+xN3eouNDFxWlu/Ns6aQMBmX1CukP+N02BhknGE0XlZWD8NDiVTbntE4Lhveko3cDDj2nMY3Ds+JvxqOQ1f6w/5Jbvo+UWMcXc4E+76D2PsKaf393vq95faXzyvv/e53HfReVsouMRk3o+TgKEIk6R6lNBwnEsm7dS0Tx8FEUu9oTMbxaCXxd7mOwLGvkjl3Ps/Csc7K2E+vjP5mnyWjPvlzTb72SXAIDsEhOASH4BAcSinhCmnZmwW7X0C7kTFz2/Jx+PIWOHrvd98JJv+tCA4JDoXi6HIVwcch7fc0GRcfhyTjTqNvMJYTUsEhOASH4BAcgkNwCA7BIcEhOASH4BAcgkNwCA7BITgkOASHtvYHMmsDvJBwu9EAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAIpUlEQVR42u2dW2wc1RmA/zMby1ln7Ro7bhOWWETBsQmuQrVJMAlRQiOiOlAbhbtoSR54QnnAjSraCoXSPtCiSrzQUqmtmspEQQRSYRKoQEQOxHSdS6nASda2XCK7W6exYxKvsWOcndMHh6iQ47V3d2Z2vP6+xxntnJ2Zb+bc/vOPGh9LCIAJi0sAyAHIAcgByAHIAcgByAHIAcgByAGAHIAcgByAHIAcgByAHIAcgByAHADIAcgByAHIAcgByAHIAcgByAHIAYAcgByQPvM8K0nFourYAXWhX8ZGcnKquqJSlt9mr7vfo/ISQ9bpIzIYl7GLcr5fEudVcuLKrmBIh8qkpFyXLpJwja6KSKDAh3Iob9I+qVjUannBDydsR+r1pu0uFpCcUN0n1MlW1fNPET2jnwRDetkqvfK7Olw9F+Wwmp9W/d0+OefkzpddelJVLGq1vizDAxm+28LVeuOj/lHEo2pFXej30QPx2Vm9cInDx4x3qkPNWT4AKt6p9uzStRvs9Q9LcdkcanP4Bz067Ozx1JFXrQ/3O+ZZx+FAz4lk44+k8pY50VvRpYvzU7TxUev1XztoxhXGRgKv/MJqe21uyLH6njw0IzFk/eWnqucjt6q/tn3W67+Sq32cfK1WdE2dLU3q2AE5d0bl7myd5NKItfdZdeHstG1MqVqlw9VSWKRD18n8kCSG1PjnenRY9XaoUx+mPoLq+cg6+Fu74cl87q3k5q341u9Ux2FDb+XhXdlX54G9z0rfqVR95rVb9cq7pm1XqninOvG2iv09lWHrHvBueGaON0id0O6lFGak1d3Q4WodrlaR+hSdHdW2T5XfoGvqGD73OyoWVR2t5jsdKLAbmuwtT6TbEdXhavuHv7Qj9VMWevBFuTSCHL6X4/295h0lFXrbc1k830pv2m43NGnTAJ1KTliHmpHD3xXK0RZzEzIYsu9/KvuxNV1Tp+/eYd7X0aoG+5DDvz0U1f6G8aFPNu50atRV19TZa7cayhBR7/4JOfz62vj4kHFK2Y58TypXONnzv+MhXVFp8KPvtJcvD+RIh+7j5jnVOx50vCi9+XFzw6SzHTn8WKdIvNNwF29rlMIi5+UIV+ua2w07upDDh52UMx3K2Hdd832XSrRv3Wz4GwO9khhCDp/JcdI0tlG1SkS5VWTlzRIMGe7Z6SPI4TM5/mMYvtTLXR21VHpZxLD57L+Qw19oY+jrwrC7pS68wbBx4hJy+GyEw2hM6Dp3jSz5pmHr6Ahy+KlOGfnMuFnmh9wtuNggn/r8AnL4npKFrhdh7CRPjCGHnxochQsMGz14gsdHTX8mhBxZc/kLxw5VVGycKTXePCdJmKqzBd9AjqynT1OGV6VHoMA45KAS591t6wyfMzVEyvIxEqz3pHW2R0TsRTc5O1NlMKN1z5RXPDBPSwY1S0hd25sdjIvTS2C+fvxr/8mC0vySYzIcd6D3ynMoIktWJB95xnszRCTDufVFS+WaSA7VFXUzek+rHtNUX7gmr6oV61DzVTOu0HfKOtqSAzNqN2Y2T2YeDO0+7t7SARXvMkYI6Btr86vN8e+YYWPK6G1XzFhcZW/aluFTfGOtNkbvnXjbLTlMR9YVla4Prngshzm07ny/12Y8+LPMp9fnh2RxleHU2t9wo8+i4p3GBrWuWjUnpuyVnZw1ZkweZOm3xbR0UR170/mL884fzTuW3ko8h+/MEBG98i5zaHj7m8oUB5TNQsivN9G+rFO8TNBgYUYaFJdJ3b3mdQP7n3cqBkfFolMtoZ4qdhA5cm2GiIjYdY1SUmFeF79nV/bRvyoWVQdfnCIq/XaP87pYmCFpDpXaG39g3jU8YO39ufRm3gWz2l6zWl4wLjTXgQL7zsdY1ORjM66uOzKG/l7Nq/HWS+lWMSreaTU/rdr2TVno3Tu8z/UzDzMyqVwanrQuDk6x7lmrjtZAR6sdqddrGma0yj7619RJPuy1W71fRe1dCobA8w+Z7+KSm9M+1uXLqVNvuW2GfDkhENj9k2lzw02dnyOhej+ZNj/HZFMjz/NzTCWH8+98b8yYvHaDfWr/b6a9u1mdzrLv2PfuzFWW0ryasvfSjMkJPHvbc5m8/GacMtW+76kc5q+1MEOyC+OzH3kmRV6NDM8lUGA3NOlN211cFOOjnGCBAldTgeXGjP/Lq5GsWm29t9s4rJlBVaI3PKpdDRPxVwbjP//YkQvnPzO+2k+JtVvv/iHj5O66olJvftw/GYy9kmO6zufsN0O+kvu8Kyrdx2f6sgyG7BXrxfMBUB9lE1Tv7XY29EGXLpJb1tt1jf785ICMj6pPP1ZdUbk4KGMJNT6ivxhXyQkJhqQgqAuDMq9Qyq+3azfkPFPxXEw1CfRWADkAOQA5ADkAOQA5ADkAkAOQA5ADkAOQA5ADkAOQA5AD5gZ8Vza9hc7S1e5epLRMF2qqSxfr1fd4tjSSMMGcxcBK5it1m7zxg2pFZhgt7BMzREQdO0Cbw0+vDW8/6DoN584gh4/Qycs+MtXNtYPIAcgBdGVzSTDk6opn1XcaOWZtW2RZxN7yhHvHD/x+x7TJg6hWADkAOQA5ADkAOQA5AJADkAOQA4Thc5/x309TfAfDASbGkGO2ogZ6cxZSSrUCyAHIAcgByAHIAcI4B0hGX0hZvsbFZ/cff8v46y3IkWu+tVSve8DF439yOIdyUK0AcgByAHIAcgByAHIAcgByAHIAcgAgByAHIAcgR85RRSXG7bqwyNVydWFQTInIkMNH6OJy845wjbsFl4cNf6YsjBx+orDIjtQbUglWRdyVcu19+tqNkS0kxvdfHXy0RU5+IEP9akGpvv4m+87HpLjM9TsU77Tef0UGe0WEryYADVJADkAOQA5ADgDkAOQA5ADkAOQA5ADkAOQA5ADkAOQAQA5ADkAOQA5ADkAOQA5ADkAOQA4A5ADkAOQA5ADkAOQA5IBZzP8Ar+coGqk4+WAAAAAASUVORK5CYII=">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#F2F3EF; --surface:#FFFFFF; --ink:#16201C; --muted:#46514C; --line:#C5CCC4;
-  --primary:#0F5C57; --primary-press:#0A403C; --primary-soft:#DDEBE8;
-  --urgent:#B3261E; --urgent-press:#7F1A15; --urgent-bg:#FBE9E7;
-  --ok:#1B6E3A; --ok-bg:#E3F1E7; --warn:#7A4300; --warn-bg:#FFF0D6;
+  /* Charte JOA */
+  --cafe:#3A2506; --champagne:#F2D7C2; --coral:#FC814A; --powder:#F9F7F3;
+  --surface:#FFFFFF; --muted:#6B5A45; --line:#E6CDB9; --cafe-press:#1F1403;
+  --tint:#FBEDE2;
+  /* Angles dissymétriques, en écho aux courbes du mobilier */
+  --r-a:22px 4px 4px 4px; --r-b:4px 22px 4px 4px; --r-c:4px 4px 22px 4px; --r-d:4px 4px 4px 22px;
   color-scheme: light;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
 *,*::before,*::after{box-sizing:inherit}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-html,body{margin:0;background:var(--bg);color:var(--ink)}
-body{font-family:'Atkinson Hyperlegible',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
-  font-size:19px;line-height:1.45;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--powder);color:var(--cafe)}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  font-size:18px;line-height:1.45;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
 body.lock{overflow:hidden}
 [hidden]{display:none !important}
-button,input{font:inherit;color:inherit}
+button,input,textarea{font:inherit;color:inherit}
 button{cursor:pointer;touch-action:manipulation}
-:focus-visible{outline:3px solid #1D4ED8;outline-offset:3px}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 
-.wrap{max-width:520px;margin:0 auto;padding:14px 18px 24px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
-.top h1{font-size:28px;line-height:1.1;margin:0;letter-spacing:-.01em}
-.who{background:none;border:2px solid var(--line);border-radius:12px;padding:6px 12px;text-align:right;line-height:1.15;min-height:48px}
-.who b{display:block;font-size:18px}
-.who span{font-size:14px;color:var(--muted)}
+.wrap{max-width:520px;margin:0 auto;padding:14px 18px 28px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand svg{width:40px;height:40px;flex:none}
+.brand h1{font-size:22px;line-height:1.1;margin:0;font-weight:700;letter-spacing:-.01em}
+.who{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r-b);padding:6px 12px;text-align:right;line-height:1.15;min-height:48px}
+.who b{display:block;font-size:17px}
+.who span{font-size:13px;color:var(--muted)}
 
-h2{font-size:26px;line-height:1.2;margin:8px 0 10px}
-.hint{color:var(--muted);margin:0 0 14px}
-.lbl{display:block;font-weight:700;font-size:17px;color:var(--muted);margin:0 0 6px}
+h2{font-size:24px;line-height:1.2;margin:6px 0 10px;font-weight:700}
+.hint{color:var(--muted);margin:0 0 14px;font-size:17px}
+.lbl{display:block;font-weight:500;font-size:15px;color:var(--muted);margin:0 0 6px}
 
 /* Choix du projet */
-.picker{width:100%;min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:12px;
-  background:var(--surface);border:2px solid var(--ink);border-radius:14px;padding:12px 16px;text-align:left;font-size:22px;font-weight:700}
+.picker{width:100%;min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:var(--surface);border:2px solid var(--cafe);border-radius:var(--r-a);padding:12px 16px;text-align:left;font-size:21px;font-weight:700}
 .picker .ph{color:var(--muted);font-weight:400}
-.picker svg{flex:none;width:24px;height:24px}
+.picker svg{flex:none;width:22px;height:22px}
 .picker:disabled{opacity:.55}
 
 /* Interrupteur Urgent */
-.urgent{width:100%;margin-top:14px;display:flex;align-items:center;gap:14px;text-align:left;
-  background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:12px 16px;min-height:68px}
-.urgent .sw{flex:none;width:58px;height:34px;border-radius:17px;background:#B8C0B7;position:relative;transition:background .15s}
-.urgent .sw::after{content:"";position:absolute;top:4px;left:4px;width:26px;height:26px;border-radius:50%;background:#fff;transition:transform .15s}
-.urgent strong{display:block;font-size:21px}
-.urgent .sub{display:block;font-size:16px;color:var(--muted)}
-.urgent.on{background:var(--urgent);border-color:var(--urgent);color:#fff}
-.urgent.on .sw{background:var(--urgent-press)}
-.urgent.on .sw::after{transform:translateX(24px)}
-.urgent.on .sub{color:#fff}
+.urgent{width:100%;margin-top:12px;display:flex;align-items:center;gap:14px;text-align:left;
+  background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r-b);padding:12px 16px;min-height:66px}
+.urgent .sw{flex:none;width:56px;height:32px;border-radius:16px;background:#CDBBAA;position:relative;transition:background .15s}
+.urgent .sw::after{content:"";position:absolute;top:4px;left:4px;width:24px;height:24px;border-radius:50%;background:#fff;transition:transform .15s}
+.urgent strong{display:block;font-size:20px}
+.urgent .sub{display:block;font-size:15px;color:var(--muted)}
+.urgent.on{background:var(--coral);border-color:var(--coral)}
+.urgent.on .sw{background:var(--cafe)}
+.urgent.on .sw::after{transform:translateX(24px);background:var(--powder)}
+.urgent.on .sub{color:var(--cafe)}
 .urgent:disabled{opacity:.55}
 
-/* Panneaux */
-.panel{margin-top:10px;text-align:center}
-.rec{position:relative;width:184px;height:184px;margin:30px auto 18px;border-radius:50%;border:0;
-  background:var(--primary);color:#fff;display:grid;place-items:center;
-  box-shadow:0 7px 0 var(--primary-press);transition:transform .06s,box-shadow .06s}
-.rec:active{transform:translateY(5px);box-shadow:0 2px 0 var(--primary-press)}
-.rec svg{width:78px;height:78px}
-.rec.on{background:var(--ink);box-shadow:0 7px 0 #000}
-.rec.on:active{box-shadow:0 2px 0 #000}
-.rec .sq{width:58px;height:58px;border-radius:10px;background:#fff}
-.ring{position:absolute;inset:-12px;border-radius:50%;border:7px solid var(--urgent);opacity:.8;
+/* Enregistrement */
+.panel{margin-top:6px}
+.center{text-align:center}
+.rec{position:relative;width:176px;height:176px;margin:34px auto 18px;border-radius:50%;border:0;
+  background:var(--cafe);color:var(--powder);display:grid;place-items:center;
+  box-shadow:0 7px 0 var(--cafe-press);transition:transform .06s,box-shadow .06s}
+.rec:active{transform:translateY(5px);box-shadow:0 2px 0 var(--cafe-press)}
+.rec svg{width:74px;height:74px}
+.rec .sq{width:54px;height:54px;border-radius:12px 3px 3px 3px;background:var(--coral)}
+.ring{position:absolute;inset:-12px;border-radius:50%;border:7px solid var(--coral);opacity:.85;
   transform:scale(var(--lvl,1));transition:transform .08s linear;pointer-events:none}
-.say{font-size:24px;font-weight:700;margin:0 0 6px}
+.say{font-size:22px;font-weight:700;margin:0 0 6px}
 .timer{font-size:44px;font-weight:700;margin:0;font-variant-numeric:tabular-nums}
-.recap{font-size:20px;margin:16px 0}
-audio{width:100%;margin-top:18px}
 
-.btn{display:block;width:100%;min-height:62px;border-radius:14px;border:2px solid transparent;
-  font-size:21px;font-weight:700;margin-top:12px;padding:10px 16px}
-.btn.primary{background:var(--primary);color:#fff;box-shadow:0 5px 0 var(--primary-press)}
-.btn.primary:active{transform:translateY(3px);box-shadow:0 2px 0 var(--primary-press)}
-.btn.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
-.linkbtn{background:none;border:0;color:var(--primary);text-decoration:underline;font-size:17px;padding:10px 4px;min-height:44px}
+/* Relecture */
+.review-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 4px}
+.review-head h2{margin:0}
+.chip{font-size:14px;color:var(--muted);white-space:nowrap}
+audio{width:100%;margin:10px 0 4px;height:44px}
+.field{margin-top:16px}
+.field label{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-weight:700;font-size:17px;margin-bottom:6px}
+.field label small{font-weight:400;color:var(--muted);font-size:14px}
+textarea{width:100%;display:block;border:2px solid var(--cafe);background:var(--surface);padding:12px 14px;
+  font-size:18px;line-height:1.5;resize:none;overflow:hidden;min-height:58px}
+#f-action{border-radius:var(--r-a);font-weight:700}
+#f-texte{border-radius:var(--r-d);min-height:120px}
+.field.need textarea{border-color:var(--coral);box-shadow:0 0 0 3px rgba(252,129,74,.25)}
+.field .warn-line{font-size:15px;color:var(--cafe);background:var(--tint);border-radius:var(--r-c);padding:8px 12px;margin-top:8px}
+.loading{display:flex;align-items:center;gap:14px;background:var(--surface);border:1.5px solid var(--line);
+  border-radius:var(--r-b);padding:18px 16px;margin-top:16px}
+.loading p{margin:0}
+.loading .mini{width:34px;height:34px;flex:none;border-radius:50%;border:5px solid var(--champagne);border-top-color:var(--cafe);animation:spin 1s linear infinite}
+.linkbtn{background:none;border:0;color:var(--cafe);text-decoration:underline;text-underline-offset:3px;font-size:16px;padding:10px 4px;min-height:44px}
 
-.note{border-radius:12px;padding:12px 14px;text-align:left;margin-top:14px;font-size:18px}
-.note.ok{background:var(--ok-bg);color:var(--ok)}
-.note.warn{background:var(--warn-bg);color:var(--warn)}
-.note.urgent{background:var(--urgent-bg);color:var(--urgent)}
+.btn{display:block;width:100%;min-height:60px;border-radius:var(--r-c);border:2px solid transparent;
+  font-size:20px;font-weight:700;margin-top:14px;padding:10px 16px}
+.btn.primary{background:var(--cafe);color:var(--powder);box-shadow:0 5px 0 var(--cafe-press)}
+.btn.primary:active{transform:translateY(3px);box-shadow:0 2px 0 var(--cafe-press)}
+.btn.primary.hot{background:var(--coral);color:var(--cafe);box-shadow:0 5px 0 #C9592A}
+.btn.ghost{background:transparent;border-color:var(--line);color:var(--cafe)}
+
+.note{border-radius:var(--r-b);padding:12px 14px;text-align:left;margin-top:14px;font-size:17px;background:var(--tint)}
 .note strong{display:block}
+.note.ok{background:var(--surface);border:1.5px solid var(--line)}
+.note.hot{background:var(--coral)}
 
-.big-ok{width:96px;height:96px;margin:26px auto 8px;border-radius:50%;background:var(--ok);display:grid;place-items:center}
-.big-ok svg{width:54px;height:54px}
+.big-ok{width:92px;height:92px;margin:28px auto 8px;border-radius:50%;background:var(--cafe);display:grid;place-items:center}
+.big-ok svg{width:50px;height:50px}
 .done-title{font-size:28px;font-weight:700;margin:6px 0 4px}
+.done-action{font-size:19px;font-weight:700;margin:4px 0 0}
 
-.spinner{width:64px;height:64px;margin:46px auto 18px;border-radius:50%;border:7px solid var(--primary-soft);border-top-color:var(--primary);animation:spin 1s linear infinite}
+.spinner{width:62px;height:62px;margin:46px auto 18px;border-radius:50%;border:7px solid var(--champagne);border-top-color:var(--cafe);animation:spin 1s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-.queue{width:100%;background:var(--warn-bg);color:var(--warn);border:2px solid #E7C48A;border-radius:12px;
-  padding:10px 14px;text-align:left;font-size:17px;font-weight:700;margin-bottom:14px;min-height:52px}
+.queue{width:100%;background:var(--champagne);color:var(--cafe);border:0;border-radius:var(--r-a);
+  padding:12px 14px;text-align:left;font-size:16px;font-weight:700;margin-bottom:16px;min-height:52px}
 
 footer{margin-top:34px;text-align:center}
 
-/* Listes (projets, équipe) */
+/* Listes */
 .list{display:flex;flex-direction:column}
-.item{width:100%;min-height:60px;text-align:left;background:var(--surface);border:0;border-bottom:1px solid var(--line);
-  padding:14px 16px;font-size:21px}
-.item:first-child{border-top-left-radius:12px;border-top-right-radius:12px}
-.item:last-child{border-bottom:0;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
-.item.alt{color:var(--muted);font-size:19px}
-.list-head{font-size:16px;font-weight:700;color:var(--muted);margin:16px 2px 6px}
-.list-box{border:2px solid var(--line);border-radius:14px;overflow:hidden}
+.item{width:100%;min-height:58px;text-align:left;background:var(--surface);border:0;border-bottom:1px solid var(--line);
+  padding:14px 16px;font-size:20px}
+.item:last-child{border-bottom:0}
+.item.alt{color:var(--muted);font-size:18px}
+.list-head{font-size:15px;font-weight:500;color:var(--muted);margin:18px 2px 6px}
+.list-box{border:1.5px solid var(--line);border-radius:var(--r-a);overflow:hidden}
 .empty{color:var(--muted);padding:6px 2px 12px}
 
-input[type=text],input[type=search]{width:100%;min-height:58px;border:2px solid var(--ink);border-radius:12px;padding:10px 14px;background:#fff;font-size:20px}
+input[type=text],input[type=search]{width:100%;min-height:56px;border:2px solid var(--cafe);border-radius:var(--r-d);padding:10px 14px;background:#fff;font-size:19px}
 label.lbl{margin-top:18px}
 
 /* Feuilles plein écran */
-.sheet{position:fixed;inset:0;z-index:20;background:var(--bg);overflow-y:auto;
+.sheet{position:fixed;inset:0;z-index:20;background:var(--powder);overflow-y:auto;
   padding:calc(env(safe-area-inset-top,0px) + 12px) 18px calc(env(safe-area-inset-bottom,0px) + 24px)}
 .sheet-in{max-width:520px;margin:0 auto}
 .sheet-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;
-  position:sticky;top:0;background:var(--bg);padding:6px 0;z-index:1}
+  position:sticky;top:0;background:var(--powder);padding:6px 0;z-index:1}
 .sheet-head h2{margin:0}
-.x{width:52px;height:52px;border-radius:50%;border:2px solid var(--line);background:#fff;font-size:22px;line-height:1}
-#qr{display:grid;place-items:center;background:#fff;border-radius:14px;padding:18px;margin:10px 0;min-height:120px}
+.x{width:50px;height:50px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:20px;line-height:1}
+#qr{display:grid;place-items:center;background:#fff;border-radius:var(--r-a);padding:18px;margin:10px 0;min-height:120px}
 #qr img,#qr canvas{max-width:100%;height:auto}
-.mono-link{word-break:break-all;font-size:14px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px}
+.mono-link{word-break:break-all;font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:var(--r-d);padding:10px}
 
 #toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);transform:translateX(-50%);
-  max-width:92vw;background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;font-size:17px;
+  max-width:92vw;background:var(--cafe);color:var(--powder);padding:12px 18px;border-radius:var(--r-a);font-size:16px;
   opacity:0;pointer-events:none;transition:opacity .2s;z-index:40;text-align:center}
 #toast.show{opacity:1}
 
 @media (prefers-reduced-motion: reduce){
   .ring{transition:none}
-  .spinner{animation-duration:2.5s}
+  .spinner,.loading .mini{animation-duration:2.5s}
   .urgent .sw,.urgent .sw::after{transition:none}
 }
 </style>
@@ -152,17 +171,20 @@ label.lbl{margin-top:18px}
 <div class="wrap">
 
   <header class="top">
-    <h1>Vocal REX</h1>
+    <div class="brand">
+      <svg viewBox="80 80 640 640" aria-label="JOA" role="img"><g fill="none" stroke="#FC814A" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M102.5 259.5V326.5H237.5L327.5 236.5V102.5H102.5"/><circle cx="585" cy="214.5" r="114.5" stroke-width="40.5"/><path d="M472.5 697.5V473.5H697.5V697.5M472.5 585.5H697.5"/></g></svg>
+      <h1>Vocal REX</h1>
+    </div>
     <button id="who-btn" class="who" hidden><b id="who-name"></b><span>changer</span></button>
   </header>
 
-  <!-- Écran : lien manquant ou invalide -->
+  <!-- Lien manquant ou invalide -->
   <section id="scr-install" hidden>
     <h2 id="install-title">Ouvrez le lien d’installation</h2>
     <p id="install-text" class="hint">Cette app s’ouvre avec le lien ou le QR code fourni par JOA. Demandez-le à votre responsable, puis ouvrez-le dans Safari (iPhone) ou Chrome (Android).</p>
   </section>
 
-  <!-- Écran : qui êtes-vous -->
+  <!-- Qui êtes-vous -->
   <section id="scr-who" hidden>
     <h2>Qui êtes-vous ?</h2>
     <p class="hint">Votre nom accompagne chaque vocal. On ne le demande qu’une fois.</p>
@@ -178,29 +200,31 @@ label.lbl{margin-top:18px}
   <!-- Écran principal -->
   <section id="scr-main" hidden>
     <button id="queue-bar" class="queue" hidden></button>
-    <div id="srv-warn" class="note warn" hidden><strong>Le serveur ne répond pas.</strong>Vous pouvez enregistrer quand même : le vocal restera sur ce téléphone et partira dès que possible.</div>
+    <div id="srv-warn" class="note" hidden><strong>Le serveur ne répond pas.</strong>Vous pouvez enregistrer quand même : le vocal restera sur ce téléphone et partira dès que possible.</div>
 
-    <span class="lbl" id="lbl-projet">Projet</span>
-    <button id="projet-btn" class="picker" aria-labelledby="lbl-projet projet-val">
-      <span id="projet-val" class="ph">Choisir le projet</span>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
+    <div id="setup-block">
+      <span class="lbl" id="lbl-projet">Projet</span>
+      <button id="projet-btn" class="picker" aria-labelledby="lbl-projet projet-val">
+        <span id="projet-val" class="ph">Choisir le projet</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
 
-    <button id="urgent-btn" class="urgent" role="switch" aria-checked="false">
-      <span class="sw" aria-hidden="true"></span>
-      <span><strong>Urgent</strong><span id="urgent-sub" class="sub">Le responsable du projet reçoit une alerte dès l’envoi</span></span>
-    </button>
+      <button id="urgent-btn" class="urgent" role="switch" aria-checked="false">
+        <span class="sw" aria-hidden="true"></span>
+        <span><strong>Urgent</strong><span id="urgent-sub" class="sub">Le responsable du projet reçoit une alerte dès l’envoi</span></span>
+      </button>
+    </div>
 
-    <div id="panel-idle" class="panel">
+    <div id="panel-idle" class="panel center">
       <button id="rec-btn" class="rec" aria-label="Commencer l’enregistrement">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2.5" width="6" height="11.5" rx="3" fill="#fff"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2.5" width="6" height="11.5" rx="3" fill="currentColor"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       </button>
       <p class="say">Appuyez pour parler</p>
       <p class="hint">Dites ce qui s’est passé, ce qu’il faut faire, et pour quand.</p>
       <div id="idle-note"></div>
     </div>
 
-    <div id="panel-rec" class="panel" hidden>
+    <div id="panel-rec" class="panel center" hidden>
       <button id="stop-btn" class="rec on" aria-label="Terminer l’enregistrement"><span id="ring" class="ring"></span><span class="sq"></span></button>
       <p id="timer" class="timer">0:00</p>
       <p class="say">Appuyez pour terminer</p>
@@ -208,28 +232,51 @@ label.lbl{margin-top:18px}
     </div>
 
     <div id="panel-review" class="panel" hidden>
+      <div class="review-head"><h2>Vérifiez avant d’envoyer</h2><span id="review-meta" class="chip"></span></div>
       <audio id="player" controls preload="metadata"></audio>
-      <p id="recap" class="recap"></p>
-      <button id="send-btn" class="btn primary">Envoyer le vocal</button>
+
+      <div id="tr-loading" class="loading" role="status">
+        <span class="mini" aria-hidden="true"></span>
+        <p><strong>Transcription en cours…</strong><br><span class="hint">Quelques secondes.</span></p>
+      </div>
+
+      <div id="tr-fail" hidden>
+        <div class="note"><strong id="tr-fail-title">Transcription indisponible pour l’instant.</strong><span id="tr-fail-text">Vous pouvez envoyer le vocal tel quel : il sera transcrit plus tard.</span></div>
+        <button id="tr-retry" class="linkbtn" type="button">Réessayer la transcription</button>
+      </div>
+
+      <div id="tr-fields" hidden>
+        <div id="fld-action" class="field">
+          <label for="f-action">Action à faire <small>modifiable</small></label>
+          <textarea id="f-action" rows="2" maxlength="600" placeholder="Ex. : refaire la tôle TFA01 pour demain"></textarea>
+          <p id="action-warn" class="warn-line" hidden>C’est urgent : précisez l’action, c’est elle qui sera en tête de l’alerte.</p>
+        </div>
+        <div class="field">
+          <label for="f-texte">Ce que vous avez dit <small>corrigez si besoin</small></label>
+          <textarea id="f-texte" rows="5" maxlength="20000"></textarea>
+        </div>
+      </div>
+
+      <button id="send-btn" class="btn primary">Envoyer</button>
       <button id="redo-btn" class="btn ghost">Recommencer</button>
     </div>
 
-    <div id="panel-sending" class="panel" hidden>
+    <div id="panel-sending" class="panel center" hidden>
       <div class="spinner" aria-hidden="true"></div>
       <p class="say" role="status">Envoi en cours…</p>
       <p class="hint">Gardez l’app ouverte quelques secondes.</p>
     </div>
 
-    <div id="panel-done" class="panel" hidden>
-      <div class="big-ok" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <p class="done-title" role="status">Vocal envoyé</p>
+    <div id="panel-done" class="panel center" hidden>
+      <div class="big-ok" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#F9F7F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <p class="done-title" role="status">Envoyé</p>
       <div id="done-note"></div>
       <button id="new-btn" class="btn primary">Nouveau vocal</button>
     </div>
 
     <div id="panel-wait" class="panel" hidden>
-      <div class="note warn"><strong id="wait-title">Pas de réseau pour l’instant.</strong><span id="wait-text">Le vocal est gardé sur ce téléphone et partira tout seul dès que le réseau revient.</span></div>
-      <div id="wait-urgent" class="note urgent" hidden><strong>C’est urgent : appelez aussi le responsable.</strong>L’alerte partira avec le vocal, mais pas avant.</div>
+      <div class="note"><strong id="wait-title">Pas de réseau pour l’instant.</strong><span id="wait-text">Le vocal est gardé sur ce téléphone et partira tout seul dès que le réseau revient.</span></div>
+      <div id="wait-urgent" class="note hot" hidden><strong>C’est urgent : appelez aussi le responsable.</strong>L’alerte partira avec le vocal, mais pas avant.</div>
       <button id="retry-btn" class="btn primary">Réessayer maintenant</button>
       <button id="new2-btn" class="btn ghost">Nouveau vocal</button>
     </div>
@@ -238,7 +285,7 @@ label.lbl{margin-top:18px}
   </section>
 </div>
 
-<!-- Feuille : choix du projet -->
+<!-- Choix du projet -->
 <div id="picker" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="picker-title">
   <div class="sheet-in">
     <div class="sheet-head"><h2 id="picker-title">Quel projet ?</h2><button id="picker-close" class="x" aria-label="Fermer">✕</button></div>
@@ -247,7 +294,7 @@ label.lbl{margin-top:18px}
   </div>
 </div>
 
-<!-- Feuille : partager l'app -->
+<!-- Partager l'app -->
 <div id="share" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="share-title">
   <div class="sheet-in">
     <div class="sheet-head"><h2 id="share-title">Installer sur un autre téléphone</h2><button id="share-close" class="x" aria-label="Fermer">✕</button></div>
@@ -274,7 +321,6 @@ label.lbl{margin-top:18px}
   const LS = {
     get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
-    del(k) { try { localStorage.removeItem(k); } catch (e) {} },
   };
 
   /* ---------- Configuration (lien d'installation) ---------- */
@@ -293,9 +339,11 @@ label.lbl{margin-top:18px}
     projets: LS.get('rex_projets', []),
     equipe: LS.get('rex_equipe', []),
     recents: LS.get('rex_recents', []),
-    projet: '',
-    urgent: false,
+    projet: '', urgent: false,
     blob: null, mime: '', duree: 0,
+    audioB64: '', audioMime: '',   // vocal converti, prêt à partir
+    trState: 'idle',               // idle | loading | ok | fail
+    trToken: 0,
   };
 
   /* ---------- Affichage ---------- */
@@ -312,12 +360,18 @@ label.lbl{margin-top:18px}
   const PANELS = ['idle', 'rec', 'review', 'sending', 'done', 'wait'];
   function setPanel(p) {
     PANELS.forEach((n) => { $('#panel-' + n).hidden = n !== p; });
-    const locked = p === 'sending';
+    $('#setup-block').hidden = p === 'review' || p === 'sending' || p === 'done';
+    const locked = p === 'sending' || p === 'rec';
     $('#projet-btn').disabled = locked;
-    $('#urgent-btn').disabled = locked;
+    $('#urgent-btn').disabled = p === 'sending';
+    if (p === 'review') { const u = $('#urgent-btn'); $('#panel-review').insertBefore(u, $('#send-btn')); u.style.marginTop = '18px'; }
+    else if (u0().parentNode !== $('#setup-block')) { $('#setup-block').append(u0()); u0().style.marginTop = ''; }
+    window.scrollTo(0, 0);
   }
+  const u0 = () => $('#urgent-btn');
   const fmt = (s) => Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const note = (kind, title, text) => { const d = el('div', 'note ' + (kind || '')); d.append(el('strong', '', title)); if (text) d.append(document.createTextNode(text)); return d; };
 
   function renderProjet() {
     const v = $('#projet-val');
@@ -331,8 +385,12 @@ label.lbl{margin-top:18px}
     $('#urgent-sub').textContent = S.urgent
       ? 'Oui : le responsable sera alerté dès l’envoi'
       : 'Le responsable du projet reçoit une alerte dès l’envoi';
+    $('#send-btn').classList.toggle('hot', S.urgent);
+    $('#send-btn').textContent = S.urgent ? 'Envoyer l’alerte' : 'Envoyer';
+    renderReviewMeta(); checkAction();
   }
   function renderAuteur() { $('#who-name').textContent = S.auteur; }
+  function renderReviewMeta() { $('#review-meta').textContent = S.projet ? S.projet + ', ' + fmt(S.duree) : ''; }
 
   /* ---------- Qui êtes-vous ---------- */
   function renderWho() {
@@ -352,7 +410,7 @@ label.lbl{margin-top:18px}
   }
 
   /* ---------- Choix du projet ---------- */
-  const norm = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   function openPicker() {
     $('#picker-search').value = '';
     $('#picker-search').hidden = S.projets.length <= 8;
@@ -385,7 +443,7 @@ label.lbl{margin-top:18px}
   function pick(p) {
     S.projet = p;
     if (p !== GENERAL) { S.recents = [p].concat(S.recents.filter((x) => x !== p)).slice(0, 3); LS.set('rex_recents', S.recents); }
-    renderProjet(); closePicker();
+    renderProjet(); renderReviewMeta(); closePicker();
   }
 
   /* ---------- Enregistrement ---------- */
@@ -396,11 +454,9 @@ label.lbl{margin-top:18px}
     return ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/aac', 'audio/ogg;codecs=opus']
       .find((t) => MediaRecorder.isTypeSupported(t)) || '';
   }
-  function idleNote(kind, title, text) {
+  function idleNote(title, text) {
     const n = $('#idle-note'); n.textContent = '';
-    if (!title) return;
-    const d = el('div', 'note ' + kind); d.append(el('strong', '', title)); if (text) d.append(document.createTextNode(text));
-    n.append(d);
+    if (title) n.append(note('', title, text));
   }
 
   async function startRec() {
@@ -408,7 +464,7 @@ label.lbl{margin-top:18px}
     idleNote();
     if (!S.projet) { toast('Choisissez d’abord le projet.'); openPicker(); return; }
     if (!window.MediaRecorder || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      idleNote('warn', 'Ce navigateur ne sait pas enregistrer.', 'Ouvrez le lien dans Safari (iPhone) ou Chrome (Android), à jour.');
+      idleNote('Ce navigateur ne sait pas enregistrer.', 'Ouvrez le lien dans Safari (iPhone) ou Chrome (Android), à jour.');
       return;
     }
     starting = true;
@@ -417,9 +473,9 @@ label.lbl{margin-top:18px}
     } catch (e) {
       starting = false;
       if (e && (e.name === 'NotAllowedError' || e.name === 'SecurityError')) {
-        idleNote('warn', 'Le micro est bloqué pour cette app.', 'Autorisez le micro dans les réglages du navigateur (iPhone : Réglages > Safari > Micro), puis réessayez.');
+        idleNote('Le micro est bloqué pour cette app.', 'Autorisez le micro dans les réglages du navigateur (iPhone : Réglages > Safari > Micro), puis réessayez.');
       } else {
-        idleNote('warn', 'Micro introuvable.', 'Vérifiez qu’aucune autre app (appel, dictaphone) n’utilise le micro, puis réessayez.');
+        idleNote('Micro introuvable.', 'Vérifiez qu’aucune autre app (appel, dictaphone) n’utilise le micro, puis réessayez.');
       }
       return;
     }
@@ -445,7 +501,7 @@ label.lbl{margin-top:18px}
     $('#rec-left').textContent = left <= 30 && left > 0 ? 'Encore ' + left + ' s' : 'Maximum 5 minutes';
     if (s >= MAX_SEC) stopRec();
   }
-  function onStopped() {
+  async function onStopped() {
     clearInterval(timer); meterStop(); wakeOff();
     if (stream) stream.getTracks().forEach((t) => t.stop());
     S.duree = Math.max(1, Math.round((Date.now() - t0) / 1000));
@@ -454,13 +510,16 @@ label.lbl{margin-top:18px}
     rec = null; stream = null;
     if (S.blob.size < 800) {
       S.blob = null; setPanel('idle');
-      idleNote('warn', 'Rien n’a été enregistré.', 'Réessayez en parlant près du téléphone.');
+      idleNote('Rien n’a été enregistré.', 'Réessayez en parlant près du téléphone.');
       return;
     }
     const pl = $('#player'); if (pl.src) URL.revokeObjectURL(pl.src);
     pl.src = URL.createObjectURL(S.blob);
-    $('#recap').textContent = S.projet + ', ' + fmt(S.duree) + (S.urgent ? ', urgent' : '');
+    $('#f-action').value = ''; $('#f-texte').value = '';
+    renderReviewMeta();
     setPanel('review');
+    await prepareAudio();
+    transcribe();
   }
   function meterStart(st) {
     try {
@@ -485,7 +544,7 @@ label.lbl{margin-top:18px}
   async function wakeOn() { try { if (navigator.wakeLock) wake = await navigator.wakeLock.request('screen'); } catch (e) {} }
   function wakeOff() { try { if (wake) wake.release(); } catch (e) {} wake = null; }
 
-  /* ---------- Conversion en WAV 16 kHz mono (format lisible par tous les outils de transcription) ---------- */
+  /* ---------- Conversion en WAV 16 kHz mono ---------- */
   async function toWav16k(blob) {
     const AC = window.AudioContext || window.webkitAudioContext; if (!AC) throw new Error('AudioContext absent');
     const ab = await blob.arrayBuffer();
@@ -523,6 +582,57 @@ label.lbl{margin-top:18px}
   });
   const uid = () => (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2));
 
+  async function prepareAudio() {
+    let blob = S.blob, mime = S.mime;
+    try { blob = await toWav16k(S.blob); mime = 'audio/wav'; }
+    catch (e) { console.warn('Conversion WAV impossible, fichier d’origine conservé', e); }
+    S.audioMime = mime;
+    S.audioB64 = await blobToB64(blob);
+  }
+
+  /* ---------- Transcription avant envoi ---------- */
+  function setTr(state, title, text) {
+    S.trState = state;
+    $('#tr-loading').hidden = state !== 'loading';
+    $('#tr-fail').hidden = state !== 'fail';
+    $('#tr-fields').hidden = state !== 'ok';
+    if (state === 'fail') { $('#tr-fail-title').textContent = title; $('#tr-fail-text').textContent = text; }
+    if (state === 'ok') { autosize($('#f-action')); autosize($('#f-texte')); checkAction(); }
+  }
+  async function transcribe() {
+    if (!S.audioB64) return;
+    const token = ++S.trToken;
+    if (navigator.onLine === false) {
+      setTr('fail', 'Pas de réseau : transcription impossible pour l’instant.', 'Vous pouvez envoyer le vocal tel quel : il partira au retour du réseau et sera transcrit plus tard.');
+      return;
+    }
+    setTr('loading');
+    let d = null;
+    try {
+      const r = await fetchT(cfg.api, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify({ op: 'transcrire', k: cfg.k, mime: S.audioMime, audio: S.audioB64 }) }, 90000);
+      d = await r.json();
+    } catch (e) { d = null; }
+    if (token !== S.trToken || $('#panel-review').hidden) return;  // l'utilisateur a recommencé entre-temps
+    if (d && d.ok && d.audioOk === false) {
+      setTr('fail', 'Aucune parole détectée dans l’enregistrement.', 'Recommencez en parlant près du téléphone, ou envoyez quand même.');
+    } else if (d && d.ok) {
+      $('#f-texte').value = d.transcription || '';
+      $('#f-action').value = d.actionTexte || '';
+      setTr('ok');
+    } else if (d && d.error === 'cle') {
+      showBadLink();
+    } else {
+      setTr('fail', 'Transcription indisponible pour l’instant.', 'Vous pouvez envoyer le vocal tel quel : il sera transcrit plus tard.');
+    }
+  }
+  function autosize(t) { t.style.height = 'auto'; t.style.height = (t.scrollHeight + 4) + 'px'; }
+  function checkAction() {
+    const need = S.urgent && S.trState === 'ok' && !$('#f-action').value.trim();
+    $('#fld-action').classList.toggle('need', need);
+    $('#action-warn').hidden = !need;
+  }
+
   /* ---------- File d'attente (le vocal n'est jamais perdu) ---------- */
   const Q = (() => {
     let dbp = null; const mem = new Map();
@@ -555,7 +665,8 @@ label.lbl{margin-top:18px}
   async function upload(item) {
     let r;
     try {
-      r = await fetchT(cfg.api, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(item) }, 120000);
+      r = await fetchT(cfg.api, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(Object.assign({}, item, { k: cfg.k })) }, 120000);
     } catch (e) { return { ok: false, network: true }; }
     try {
       const d = await r.json();
@@ -566,15 +677,20 @@ label.lbl{margin-top:18px}
 
   let sending = false;
   async function send() {
-    if (sending || !S.blob) return;
-    sending = true; setPanel('sending');
+    if (sending || !S.audioB64) return;
+    const validated = S.trState === 'ok';
+    const texte = validated ? $('#f-texte').value.trim() : '';
+    const actionTexte = validated ? $('#f-action').value.trim() : '';
+    if (S.urgent && validated && !actionTexte) {
+      $('#f-action').focus(); checkAction();
+      if (!confirm('Aucune action n’est indiquée. Envoyer l’alerte quand même ?')) return;
+    }
+    sending = true; S.trToken++; setPanel('sending');
     try {
-      let blob = S.blob, mime = S.mime;
-      try { blob = await toWav16k(S.blob); mime = 'audio/wav'; }
-      catch (e) { console.warn('Conversion WAV impossible, envoi du fichier d’origine', e); }
-      const item = { id: uid(), k: cfg.k, projet: S.projet, auteur: S.auteur, urgent: S.urgent, duree: S.duree, mime, audio: await blobToB64(blob), cree: Date.now() };
+      const item = { id: uid(), projet: S.projet, auteur: S.auteur, urgent: S.urgent, duree: S.duree,
+        mime: S.audioMime, audio: S.audioB64, texte, actionTexte, cree: Date.now() };
       await Q.put(item);
-      S.blob = null;
+      S.blob = null; S.audioB64 = '';
       const r = await upload(item);
       if (r.ok) { await Q.del(item.id); showDone(item, r); }
       else showWait(item, r.network ? '' : r.error);
@@ -584,16 +700,13 @@ label.lbl{margin-top:18px}
   }
   function showDone(item, r) {
     const n = $('#done-note'); n.textContent = '';
+    if (item.actionTexte) n.append(el('p', 'done-action', item.actionTexte));
     n.append(el('p', 'hint', item.projet + ', ' + fmt(item.duree) + (item.urgent ? ', urgent' : '')));
     if (item.urgent) {
-      if (r.alerteEchec || !r.alerte) {
-        const d = el('div', 'note warn'); d.append(el('strong', '', 'L’alerte n’a pas pu partir.'), document.createTextNode('Le vocal est bien arrivé, mais appelez le responsable directement.'));
-        n.append(d);
-      } else {
-        const d = el('div', 'note ok'); d.append(el('strong', '', 'Alerte envoyée'), document.createTextNode(r.alerte));
-        n.append(d);
-      }
+      if (r.alerteEchec || !r.alerte) n.append(note('hot', 'L’alerte n’a pas pu partir.', 'Le vocal est bien arrivé, mais appelez le responsable directement.'));
+      else n.append(note('ok', 'Alerte envoyée', r.alerte));
     }
+    if (!item.texte) n.append(note('', 'Envoyé sans transcription.', 'Le vocal sera transcrit plus tard automatiquement.'));
     setPanel('done');
     if (navigator.vibrate) navigator.vibrate([40, 60, 40]);
   }
@@ -604,25 +717,26 @@ label.lbl{margin-top:18px}
     setPanel('wait');
   }
   function resetForNew() {
-    S.urgent = false; S.blob = null; renderUrgent(); idleNote(); setPanel('idle');
+    S.urgent = false; S.blob = null; S.audioB64 = ''; S.trToken++; S.trState = 'idle';
+    renderUrgent(); idleNote(); setPanel('idle');
   }
 
   let flushing = false;
   async function flushQueue(fromUser) {
     if (flushing || !cfg) return;
     flushing = true;
-    let sent = 0, left = 0, lastErr = '', alertes = [];
+    let sent = 0, left = 0, lastErr = '', alertes = 0;
     try {
       const items = (await Q.all()).sort((a, b) => a.cree - b.cree);
       for (const it of items) {
         const r = await upload(it);
-        if (r.ok) { await Q.del(it.id); sent++; if (it.urgent && r.alerte) alertes.push(r.alerte); }
+        if (r.ok) { await Q.del(it.id); sent++; if (it.urgent && r.alerte) alertes++; }
         else { left++; if (!r.network) lastErr = r.error; }
       }
     } finally { flushing = false; }
     await refreshQueueBar();
     if (sent) {
-      toast((sent === 1 ? 'Le vocal en attente est parti.' : sent + ' vocaux en attente sont partis.') + (alertes.length ? ' Alerte envoyée.' : ''));
+      toast((sent === 1 ? 'Le vocal en attente est parti.' : sent + ' vocaux en attente sont partis.') + (alertes ? ' Alerte envoyée.' : ''));
       if (!$('#panel-wait').hidden && !left) resetForNew();
     } else if (fromUser && left) {
       toast(lastErr ? 'Échec : ' + lastErr : 'Toujours pas de réseau. Nouvel essai automatique dans une minute.');
@@ -638,7 +752,7 @@ label.lbl{margin-top:18px}
   /* ---------- Chargement des projets et de l'équipe ---------- */
   function showBadLink() {
     $('#install-title').textContent = 'Ce lien n’est plus valide';
-    $('#install-text').textContent = 'Le lien d’installation a été renouvelé. Demandez le nouveau lien ou QR code à votre responsable.';
+    $('#install-text').textContent = 'Le lien d’installation a été renouvelé. Supprimez cette icône, ouvrez le nouveau lien ou QR code fourni par votre responsable, puis réinstallez l’icône.';
     show('install');
   }
   async function loadConfig() {
@@ -656,6 +770,7 @@ label.lbl{margin-top:18px}
       }
     } catch (e) {
       if (navigator.onLine !== false) $('#srv-warn').hidden = false;
+      if (!loadConfig.retried) { loadConfig.retried = true; setTimeout(loadConfig, 20000); }
     }
   }
 
@@ -678,7 +793,7 @@ label.lbl{margin-top:18px}
     try {
       await loadScript(QR_LIB);
       box.textContent = '';
-      new window.QRCode(box, { text: link, width: 260, height: 260, colorDark: '#16201C', colorLight: '#FFFFFF', correctLevel: window.QRCode.CorrectLevel.L });
+      new window.QRCode(box, { text: link, width: 260, height: 260, colorDark: '#3A2506', colorLight: '#FFFFFF', correctLevel: window.QRCode.CorrectLevel.L });
     } catch (e) {
       box.textContent = 'QR code indisponible (pas de réseau ?). Utilisez « Copier le lien ».';
     }
@@ -695,15 +810,18 @@ label.lbl{margin-top:18px}
     $('#picker-close').addEventListener('click', closePicker);
     $('#picker-search').addEventListener('input', (e) => renderPicker(e.target.value));
 
-    $('#urgent-btn').addEventListener('click', () => {
-      S.urgent = !S.urgent; renderUrgent();
-      if (!$('#panel-review').hidden) $('#recap').textContent = S.projet + ', ' + fmt(S.duree) + (S.urgent ? ', urgent' : '');
-    });
+    $('#urgent-btn').addEventListener('click', () => { S.urgent = !S.urgent; renderUrgent(); });
 
     $('#rec-btn').addEventListener('click', startRec);
     $('#stop-btn').addEventListener('click', stopRec);
     $('#send-btn').addEventListener('click', send);
-    $('#redo-btn').addEventListener('click', () => { S.blob = null; idleNote(); setPanel('idle'); });
+    $('#redo-btn').addEventListener('click', () => {
+      const edited = S.trState === 'ok' && ($('#f-texte').value.trim() || $('#f-action').value.trim());
+      if (edited && !confirm('Effacer cet enregistrement et recommencer ?')) return;
+      S.blob = null; S.audioB64 = ''; S.trToken++; S.trState = 'idle'; idleNote(); setPanel('idle');
+    });
+    $('#tr-retry').addEventListener('click', transcribe);
+    ['#f-action', '#f-texte'].forEach((s) => $(s).addEventListener('input', (e) => { autosize(e.target); checkAction(); }));
     $('#new-btn').addEventListener('click', resetForNew);
     $('#new2-btn').addEventListener('click', resetForNew);
     $('#retry-btn').addEventListener('click', () => flushQueue(true));
@@ -722,7 +840,10 @@ label.lbl{margin-top:18px}
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closePicker(); closeShare(); } });
     window.addEventListener('online', () => { flushQueue(false); loadConfig(); });
     document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') flushQueue(false); });
-    window.addEventListener('beforeunload', (e) => { if (rec && rec.state === 'recording') { e.preventDefault(); e.returnValue = ''; } });
+    window.addEventListener('beforeunload', (e) => {
+      const busy = (rec && rec.state === 'recording') || (!$('#panel-review').hidden && S.audioB64);
+      if (busy) { e.preventDefault(); e.returnValue = ''; }
+    });
     setInterval(() => { refreshQueueBar().then((n) => { if (n) flushQueue(false); }); }, 60000);
   }
 
